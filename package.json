@@ -1,0 +1,17 @@
+{
+  "name": "midnight-reminder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Pi extension that reminds the user to stop working during late-night hours.",
+  "scripts": {
+    "test": "vitest --run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.87.1",
+    "@types/node": "^24.13.6",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}
